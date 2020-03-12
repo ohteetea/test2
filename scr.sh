@@ -1,8 +1,6 @@
 #!/bin/bash
 
 echo this line right here
-
-ls -l
 cat script.sh
 cd /c/Temp
 #This is a comment
@@ -13,5 +11,4 @@ read -p "Enter a number: " i
 read -p "Enter another number: " j
 echo "The sum of the number is " $(( $i + $j ))
 cp /c/eclipse-workspace/ch01_FutureValueConsole/src/murach/fv/Main.java ./
-cd "/c/Program Files/Java/jdk1.8.0_181/bin"
-javac Main.java
+"/c/Program Files/Java/jdk1.8.0_181/bin/javac" Main.java
